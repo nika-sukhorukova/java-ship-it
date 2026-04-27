@@ -3,8 +3,8 @@ package ru.yandex.practicum.delivery;
 import  java.util.ArrayList;
 
 public class ParcelBox<T extends Parcel> {
-    ArrayList<T> parcelBoxes;
-    double maxWeight;
+    private ArrayList<T> parcelBoxes;
+    private double maxWeight;
 
     public ParcelBox(double maxWight) {
         this.parcelBoxes = new ArrayList<>();

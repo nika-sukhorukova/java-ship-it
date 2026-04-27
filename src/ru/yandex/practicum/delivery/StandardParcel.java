@@ -1,7 +1,7 @@
 package ru.yandex.practicum.delivery;
 
 public class StandardParcel extends Parcel{
-    private final int BASE_COST = 2;
+    private static final int BASE_COST = 2;
 
     public StandardParcel(String description, double weight, String deliveryAddress, int sendDay) {
         super(description, weight, deliveryAddress, sendDay);
